@@ -20,7 +20,7 @@ jobs:
 
       - name: Check Disk status
         run: |
-          fdisk -l
+          sudo fdisk -l
           df -h
           free -h
 
